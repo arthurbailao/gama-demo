@@ -1,0 +1,17 @@
+{
+  "name": "gama-demo",
+  "version": "1.0.0",
+  "description": "Gama Academy Demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arthur Bailão <arthur.bailao@dito.com.br>, Rodrigo Fontoura <rodrigo.fontoura@dito.com.br>",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/arthurbailao/gama-demo",
+  "dependencies": {
+    "express": "^4.13.4",
+    "ejs": "^2.4.1"
+  }
+}
