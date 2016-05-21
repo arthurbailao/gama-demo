@@ -4,39 +4,8 @@
     <% include partials/head %>
   </head>
   <body>
-    <div class="md-modal md-effect-4" id="modal-droid">
-      <div class="md-content">
-        <h3>Pacote Droid</h3>
-        <div class="text-right">
-          <p><input class="form-control" type="text" name="nome" placeholder="NOME"></p>
-          <p><input class="form-control phone" type="text" name="telefone" placeholder="TELEFONE"></p>
-          <p><input class="form-control" type="text" name="email" placeholder="EMAIL"></p>
-          <button class="btn--assinar btn-modal md-close">Assinar</button>
-        </div>
-      </div>
-    </div>
-    <div class="md-modal md-effect-4" id="modal-jedi">
-      <div class="md-content">
-        <h3>Pacote Jedi</h3>
-        <div class="text-right">
-          <p><input class="form-control" type="text" name="nome" placeholder="NOME"></p>
-          <p><input class="form-control phone" type="text" name="telefone" placeholder="TELEFONE"></p>
-          <p><input class="form-control" type="text" name="email" placeholder="EMAIL"></p>
-          <button class="btn--assinar btn-modal md-close">Assinar</button>
-        </div>
-      </div>
-    </div>
-    <div class="md-modal md-effect-4" id="modal-wannabe">
-      <div class="md-content">
-        <h3>Pacote Wannabe</h3>
-        <div class="text-right">
-          <p><input class="form-control" type="text" name="nome" placeholder="NOME"></p>
-          <p><input class="form-control phone" type="text" name="telefone" placeholder="TELEFONE"></p>
-          <p><input class="form-control" type="text" name="email" placeholder="EMAIL"></p>
-          <button class="btn--assinar btn-modal md-close" id="btn-modal">Assinar</button>
-        </div>
-      </div>
-    </div>
+    <% include partials/modals %>
+
     <% include partials/header %>
     <main >
       <% include partials/yield %>
