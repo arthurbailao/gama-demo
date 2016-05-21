@@ -8,4 +8,5 @@
 
 ## Fazendo merge
 `git checkout master`
+
 `git merge upstream/master`
