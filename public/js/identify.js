@@ -18,9 +18,14 @@
     if (name.trim().length == 0 || email.trim().length == 0 || phone.trim().length == 0) {
       return;
     }
-
-    //TODO: add dito identify
-
+    
+    dito.identify ({
+      id: dito.generateID(email),
+      name: name,
+      data: {
+        custom_data: phone
+      }
+    });
     clean();
     close();
 
