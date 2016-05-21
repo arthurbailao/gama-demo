@@ -19,11 +19,7 @@
       return;
     }
 
-    // dito.identify({
-    //   id: dito.Helpers.sha1(email),
-    //   name: name,
-    //   data: { telefone: phone }
-    // });
+    //TODO: add dito identify
 
     clean();
     close();
