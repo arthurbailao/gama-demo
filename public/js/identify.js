@@ -23,7 +23,9 @@
         id: dito.generateID(email),
         name: name,
         email: email,
-        phone: phone
+        data: {
+          telefone: phone
+        }
       });
 
     clean();
