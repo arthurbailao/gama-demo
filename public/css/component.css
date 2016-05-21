@@ -92,6 +92,12 @@ perspective effects (not including the modals and the overlay).
 	font-size: 1.15em;
 }
 
+@media screen and (max-width: 768px) {
+  .md-content > div {
+		padding: 15px 20px 30px;
+	}
+}
+
 .md-content > div p {
 	margin: 0;
 	padding: 10px 0;
