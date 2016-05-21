@@ -24,7 +24,7 @@ var plans = [
   {
     id: 'wannabe',
     title: 'Pacote Wannabe',
-    desc: 'Sem criatividade, bla bla bla'
+    desc: 'Você não pode realmente apreciar a marcha imperial sem ter ouvido no vinil.'
   }
 ];
 
