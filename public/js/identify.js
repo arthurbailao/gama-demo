@@ -18,12 +18,12 @@
     if (name.trim().length == 0 || email.trim().length == 0 || phone.trim().length == 0) {
       return;
     }
-    
+
     dito.identify ({
       id: dito.generateID(email),
       name: name,
       data: {
-        custom_data: phone
+        telefone: phone
       }
     });
     clean();
