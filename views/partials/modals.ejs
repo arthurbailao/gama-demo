@@ -1,12 +1,13 @@
 <% plans.forEach(function(plan) { %>
   <div class="md-modal md-effect-4" id="modal-<%= plan.id %>">
     <div class="md-content">
+      <button class="md-close btn-close"><i class="fa fa-close"></i></button>
       <h3><%= plan.title %></h3>
       <div class="text-right">
-        <p><input class="form-control" type="text" name="nome" placeholder="NOME"></p>
-        <p><input class="form-control phone" type="text" name="telefone" placeholder="TELEFONE"></p>
+        <p><input class="form-control" type="text" name="name" placeholder="NOME"></p>
+        <p><input class="form-control phone" type="text" name="phone" placeholder="TELEFONE"></p>
         <p><input class="form-control" type="text" name="email" placeholder="EMAIL"></p>
-        <button class="btn--assinar btn-modal md-close">Assinar</button>
+        <button class="btn--assinar btn-modal">Assinar</button>
       </div>
     </div>
   </div>

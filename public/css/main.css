@@ -209,4 +209,13 @@ footer {
   color: #9B9B9B !important;
 }
 
+.btn-close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 25px;
+  border: 0;
+  background: 0;
+  z-index: 30;
+}
 
