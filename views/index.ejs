@@ -30,5 +30,34 @@
     <script src="js/cssParser.js"></script>
     <script src="js/jquery.mask.min.js"></script>
     <script src="js/identify.js"></script>
+    <script>
+    (function(d,e,id){
+      window.dito={};window._ditoTemp=[];
+      dito.generateID=function(str){return'_dito_sha1_'+str;}
+      var m=['init','identify','alias','unalias','track'],s=d.createElement('script'),
+      x=d.getElementsByTagName(e)[0];s.type='text/javascript';s.async=true;s.id=id;
+      s.src='//storage.googleapis.com/dito/sdk.js';x.parentNode.insertBefore(s,x);
+      for(var i=0;i<m.length;i++){dito[m[i]]=function(i){
+      return function(){_ditoTemp.push({methodName:m[i],params:arguments});}}(i)}
+    })(document,'script','dito-jssdk');
+
+    dito.init({
+      apiKey: 'MjAxNi0wNS0yMCAxNjoyNTo0NiAtMDMwMEdhbWEgQWNhZGVteTI0NQ'
+    });
+
+    dito.identify({
+      id: dito.generateID('marcos@example.com'),
+      name: 'Marcos Nogueira',
+      email: 'marcos@example.com',
+      gender: 'male',
+      location: 'Belo Horizonte',
+      birthday: '1990-02-15',
+      data: {
+        custom_data: '+5531993441646'
+      }
+    });
+
+  </script>    
   </body>
+
 </html>
