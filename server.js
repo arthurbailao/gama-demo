@@ -13,12 +13,12 @@ app.set('view engine', 'ejs');
 var plans = [
   {
     id: 'droid',
-    title: 'Pacote Droid',
+    title: 'Pacote Droid 1',
     desc: 'Estamos Perdidos! beep? beep beep?! Bleep Blop Blep! Zeep zip smap Smap smeep!'
   },
   {
     id: 'jedi',
-    title: 'Pacore Jedi',
+    title: 'Pacote Jedi',
     desc: 'Droid, por favor! Um-quarto de porção... O lixo vai servir! Fffkrrshhzz.. Woom..woooom..'
   },
   {
