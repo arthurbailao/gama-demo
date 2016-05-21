@@ -19,7 +19,14 @@
       return;
     }
 
-    //TODO: add dito identify
+    dito.identify({
+      id: dito.generateID(email),
+      name: name,
+      email: email,
+      data: {
+        custom_data: phone
+      }
+    });
 
     clean();
     close();
