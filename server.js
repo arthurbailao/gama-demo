@@ -20,7 +20,7 @@ var plans = [
     id: 'jedi',
     title: 'Pacore Jedi',
     desc: 'Droid, por favor! Um-quarto de porção... O lixo vai servir! Fffkrrshhzz.. Woom..woooom..'
-  }
+  },
   {
     id: 'wannabe',
     title: 'Pacote Wannabe',
