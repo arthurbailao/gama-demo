@@ -13,7 +13,7 @@ app.set('view engine', 'ejs');
 var plans = [
   {
     id: 'droid',
-    title: 'Pacote Droid 1',
+    title: 'Pacote Droid',
     desc: 'Estamos Perdidos! beep? beep beep?! Bleep Blop Blep! Zeep zip smap Smap smeep!'
   },
   {
