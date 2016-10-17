@@ -1,5 +1,5 @@
 /* General Demo Style */
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 @font-face {
 	font-family: 'codropsicons';
@@ -110,7 +110,7 @@ a:active {
 		width: 100%;
 		min-width: auto;
 		min-height: auto;
-		padding: 1em; 
+		padding: 1em;
 	}
 
 	.column p {
