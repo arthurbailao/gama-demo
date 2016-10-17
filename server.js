@@ -10,21 +10,17 @@ app.use(express.static(__dirname + '/public'));
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
+// TODO: Add wannabe
 var plans = [
   {
     id: 'droid',
-    title: 'Pacote Droid 1',
+    title: 'Pacote Droid',
     desc: 'Estamos Perdidos! beep? beep beep?! Bleep Blop Blep! Zeep zip smap Smap smeep!'
   },
   {
     id: 'jedi',
-    title: 'Pacote Jedi',
+    title: 'Pacore Jedi',
     desc: 'Droid, por favor! Um-quarto de porção... O lixo vai servir! Fffkrrshhzz.. Woom..woooom..'
-  },
-  {
-    id: 'wannabe',
-    title: 'Pacote Wannabe',
-    desc: 'Você não pode realmente apreciar a marcha imperial sem ter ouvido no vinil.'
   }
 ];
 
