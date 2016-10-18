@@ -19,7 +19,13 @@
       return;
     }
 
-    //TODO: add dito identify
+    dito.identify({
+        id: email,
+        name: name,
+        data: {
+          phone: phone
+        }
+    });
 
     clean();
     close();
