@@ -19,10 +19,22 @@
       return;
     }
 
-    //TODO: add dito identify
+  dito.init()
 
-    clean();
-    close();
+  dito.identify({
+    id: dito.generateID('diogolanna@gmail.com'),
+    name: 'Diogo Lanna Brandão',
+    email: 'diogolanna@gmail.com ',
+    gender: 'male',
+    location: 'Belo Horizonte',
+    birthday: '1986-05-15',
+    data: {
+      telefone: '31 997326377'
+    }
+  });
+
+  clean();
+  close();
 
   });
 })();
