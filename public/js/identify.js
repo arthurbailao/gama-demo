@@ -24,7 +24,7 @@
       name: name,
       email: email,
       data: {
-        phone: phone,
+        telefone: phone
       }
     });
 
