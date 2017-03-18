@@ -19,7 +19,19 @@
       return;
     }
 
-    //TODO: add dito identify
+    dito.identify({
+      id: dito.generateID(email),
+      name: name,
+      email: email,
+      gender: 'male',
+      location: 'Belo Horizonte',
+      birthday: '1990-02-15',
+      data: {
+        cpf: '101.032.076-95',
+        cargo: 'Desenvolvedor',
+        telefone: phone
+      }
+    });
 
     clean();
     close();
