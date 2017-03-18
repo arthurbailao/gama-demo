@@ -9,7 +9,6 @@ app.use(express.static(__dirname + '/public'));
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
-// TODO: Add wannabe
 var plans = [
   {
     id: 'droid',
@@ -20,6 +19,11 @@ var plans = [
     id: 'jedi',
     title: 'Pacore Jedi',
     desc: 'Droid, por favor! Um-quarto de porção... O lixo vai servir! Fffkrrshhzz.. Woom..woooom..'
+  },
+  {
+    id: 'wannabe',
+    title: 'Pacote Wannabe',
+    desc: 'Você não pode realmente apreciar a marcha imperial sem ter ouvido no vinil.'
   }
 ];
 
